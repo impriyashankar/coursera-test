@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.col-xs-12
+{
+  float:none;
+}
+
 #m-navi {
   background-color: pink;
   min-height: 100px;
@@ -10,7 +15,8 @@
 
 #content {
   background-color: grey;
-  margin: 20px;
+  
+  width:80%;
 }
 
 .navbar-header button.navbar-toggle {
