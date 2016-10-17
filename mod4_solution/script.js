@@ -70,5 +70,6 @@ for (i in names) {
       helloSpeaker.speak(names[i]);
     }
 }
+return;
 }
 )();
